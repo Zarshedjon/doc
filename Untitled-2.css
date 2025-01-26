@@ -1,0 +1,198 @@
+body{
+  margin: 0;
+  width: 100%;
+  font-family:Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+main{
+  margin: 0;
+  width: 100%;
+}
+
+header{
+  display: flex;
+  width: 100%;
+  height: 58px;
+  background-color: rgba(255, 255, 255, 0);
+  padding-top: 32px;
+  border-bottom: 1px solid #FFFFFF;
+  min-height: 58px;
+}
+
+.container{
+  display: inline-grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  width: 100%;
+}
+
+.logo{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 24px;
+}
+
+.menu{
+  display: flex;
+  justify-content: center;
+  width: auto;
+  height: 22px;
+}
+.menu a{
+  margin-left: 50px;
+  font-size: 16px;
+  font-family: 'Lucida Sans Regular';
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.lang{
+  display: flex;
+  justify-content: center;
+  width: auto;
+  height: 22px;
+}
+.lang:hover{
+  cursor:pointer;
+}
+
+.list1{
+  height: 100vh;
+  width: 100%;
+  
+}
+.bg_fon{
+  background-image: url(img/bgc.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat-x;
+  width: 100%;
+  height: 100vh;
+}
+.first{
+  width: 100%;
+  height: 710px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.title{
+  width: 535px;
+  height: auto;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #FFFFFF;
+  line-height: 35px;
+}
+.title h1{
+  font-size: 64px;
+}
+.title h3{
+  font-size: 24px;
+}
+
+
+.card-box{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  width: 540px;
+  height: 353px;
+  align-items: center;
+}
+.card{
+  width: 255px;
+  height: 148px;
+  border-radius: 5px;
+}
+
+.c1{
+  background-color: #2378FC;
+  width: 255px;
+  height: 148px;
+}
+.c2{
+  background-color:#30BCC9 ;
+  width: 255px;
+  height: 148px;
+
+}
+
+.c3{
+  background-color: #FFC41E;
+  height: auto;
+  width: 255px;
+  height: 175px;
+}
+.c4{
+  background-color:#F6404F ;
+  height: auto;
+  width: 255px;
+  height: 175px;
+}
+
+.cardtext{
+  display: block;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 40px;
+  margin-right: auto;
+}
+.cardtext h1{
+  font-size: 21px;
+  color: #FFFFFF;
+}
+
+.cardtext a{
+  font-size: 14px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.cardtext div{
+  width: auto;
+}
+
+
+
+
+.list2{
+  background-color: #2378FC;
+  height: 300px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.list2_grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 119px;
+  width: 1114px;
+}
+
+.list2 h1{
+  color: #FFFFFF;
+  font-size: 30px;
+}
+
+.list2 a{
+  color: #FFFFFF;
+  font-size: 16px;
+  text-decoration: none;
+  line-height: 30px;
+}
+.list2 a:hover{
+  text-decoration: underline;
+  color: #FFC41E;
+}
+
+
+
+
+
+
+@media (max-width: 768px) {
+  .bg_fon {
+    background-size: contain; /* Вмещает изображение в элемент */
+  }
+}
